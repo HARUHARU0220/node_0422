@@ -4,6 +4,8 @@ const app = express()
 
 import productRouter from "./routes/product.js"
 import projectRouter from "./routes/project.js"
+import orderRouter from "./routes/order.js"
+
 
 
 //method - get(데이터 불러오는 것), post (데이터를 등록하는 것),put (데이터를 수정),delete (데이터를 삭제)/ 다음에 test 는 주소 (URL path)를 의미함
@@ -15,6 +17,8 @@ import projectRouter from "./routes/project.js"
 
 app.use("/product", productRouter)
 app.use("/project", projectRouter)
+app.use("/order", orderRouter)
+
 
 
 
