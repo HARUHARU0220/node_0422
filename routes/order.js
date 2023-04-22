@@ -19,9 +19,9 @@ router.put("/upload",(req, res)=>{
     })
 })
 
-router.delete("/delete",(req, res) =>{
-    res.json({
-        msg:"delete order"
-    })
-})
+// router.delete("/delete",(req, res) =>{
+//     res.json({
+//         msg:"delete order"
+//     })
+// })
 export default router
